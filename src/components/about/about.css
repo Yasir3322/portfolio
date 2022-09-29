@@ -54,8 +54,8 @@
 .about-content p{
     margin: 2rem 0 2rem;
     color: var(--color-light);
+    user-select: none;
 }
-
 
 @media screen and (max-width:1024px) {
     .about-container{

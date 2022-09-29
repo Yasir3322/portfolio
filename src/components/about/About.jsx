@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css';
 import img from'../../assets/My-about.jpg';
 import {FaAward} from 'react-icons/fa';
-import {FiUsers} from 'react-icons/fi';
+// import {FiUsers} from 'react-icons/fi';
 import {AiOutlineFolderOpen} from 'react-icons/ai';
 
 const About = () => {
@@ -24,18 +24,19 @@ const About = () => {
              <h5>Experience</h5>
              <small>1 Year working</small>
         </article>
-        <article className='about-card'>
+        {/* <article className='about-card'>
              <FiUsers className='about-icon'/>
              <h5>Clients</h5>
              <small>20 clients</small>
-        </article>
+        </article> */}
         <article className='about-card'>
              <AiOutlineFolderOpen className='about-icon'/>
              <h5>Projects</h5>
              <small>1 project</small>
         </article>
         </div>
-        <p className='my_intro'>Myself Yasir uddin . I'm from the city of flower called peshawer.I recently completed my four year of greduation at Software Engineering and currently working on the Web Developement technologies.</p>
+        <p className='my_intro'>Innovative, task driven professional,focused on developing feature to enhance user experience.Proficient in developing,creating user interface,writing and testing code troubleshooting 
+        simple/complex issues and implementing new features based on user feedback</p>
          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
       </div>
       </div>
